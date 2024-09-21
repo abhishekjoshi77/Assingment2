@@ -1,0 +1,4 @@
+function getUserInfo(user) {
+  const { name, ...rest } = user;
+  return { name, rest };
+}
