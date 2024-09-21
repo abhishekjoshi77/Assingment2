@@ -1,0 +1,13 @@
+function testRedeclaration() {
+  var x = "I am var";
+  var x = "I can be redeclared"; 
+  console.log(x);
+
+  let y = "I am let";
+  // let y = "I cannot be redeclared"; 
+  console.log(y); 
+
+  const z = "I am const";
+  // const z = "I cannot be redeclared";
+  console.log(z); 
+}
