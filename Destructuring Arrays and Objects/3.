@@ -1,0 +1,7 @@
+function extractNestedData(obj) {
+  const {
+    name: { first, last },
+    age
+  } = obj;
+  return `First Name: ${first}, Last Name: ${last}, Age: ${age}`;
+}
