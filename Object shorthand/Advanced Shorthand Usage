@@ -1,0 +1,3 @@
+function updatePerson(oldPerson, newName) {
+  return { ...oldPerson, name: newName };
+}
