@@ -1,0 +1,3 @@
+function describePerson(name, age = 25) {
+  return `This is ${name} and they are ${age} years old.`;
+}
