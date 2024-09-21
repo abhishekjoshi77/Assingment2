@@ -1,0 +1,11 @@
+function loopWithVarAndLet() {
+  console.log("Using var:");
+  for (var i = 0; i < 3; i++) {
+    // Loop block
+  }
+  console.log(i); 
+  console.log("Using let:");
+  for (let j = 0; j < 3; j++) {
+    // Loop block
+  }
+  }
