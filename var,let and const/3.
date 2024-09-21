@@ -1,0 +1,9 @@
+function demonstrateTDZ() {
+  // console.log(a); 
+  let a = "I am in TDZ";
+  console.log(a);
+  
+  var b;
+  console.log(b); 
+  b = "I am declared";
+  console.log(b); }
