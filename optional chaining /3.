@@ -1,0 +1,3 @@
+function callOptionalMethod(obj) {
+  return obj.greet?.();
+}
