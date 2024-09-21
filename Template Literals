@@ -27,3 +27,9 @@ function formatCurrency(value) {
 function printPrice(value) {
   return `The total price is ${formatCurrency(value)}.`;
 }
+
+5. Nested Template Literals:
+
+function formatMessage(name, status) {
+  return `Welcome back, ${name}! Your status is: ${status ? `active` : `inactive`}.`;
+}
