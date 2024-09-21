@@ -1,0 +1,13 @@
+function testVar() {
+  if (true) {
+    var x = "I am var";
+    console.log(x); 
+  }
+  console.log(x); 
+}
+
+function testLet() {
+  if (true) {
+    let y = "I am let";
+    console.log(y); 
+  }
