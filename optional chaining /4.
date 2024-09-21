@@ -1,0 +1,3 @@
+function getNestedProperty(obj) {
+  return obj.a?.b?.c?.d; 
+}
