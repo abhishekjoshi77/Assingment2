@@ -1,0 +1,4 @@
+function extractFirstAndRest(arr) {
+  const [first, ...rest] = arr;
+  return { first, rest };
+}
