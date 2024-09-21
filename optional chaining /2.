@@ -1,0 +1,3 @@
+function getFirstFriend(user) {
+  return user.friends?.[0]; // Returns undefined if friends array is missing or empty
+}
