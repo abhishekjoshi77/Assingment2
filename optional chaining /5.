@@ -1,0 +1,3 @@
+function getNestedPropertyWithDefault(obj) {
+  return obj.a?.b?.c?.d ?? "Not Available"; // Returns default value if property is undefined
+}
