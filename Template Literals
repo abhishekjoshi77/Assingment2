@@ -1,0 +1,29 @@
+1. Basic String Interpolation:
+
+function greet(name, age) {
+  return `Hello, my name is ${name}, and I am ${age} years old.`;
+}
+
+2. Multi-line Strings:
+
+function generateParagraph() {
+  return `This is the first line.
+This is the second line.
+And this is the third line.`;
+}
+
+3. Expression Inside Template Literals:
+
+function calculateSum(a, b) {
+  return `The sum of ${a} and ${b} is ${a + b}.`;
+}
+
+4. Embedding a Function in Template Literals:
+
+function formatCurrency(value) {
+  return `$${value.toFixed(2)}`;
+}
+
+function printPrice(value) {
+  return `The total price is ${formatCurrency(value)}.`;
+}
